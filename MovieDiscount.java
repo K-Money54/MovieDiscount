@@ -1,7 +1,7 @@
 /*
- * Programmer:
- * Date:
- * Purpose:
+ * Programmer: Kayden Dunlop
+ * Date: September 25, 2020
+ * Purpose: to print the cost of an item
  */
 
 import java.util.Scanner;
@@ -14,12 +14,13 @@ public class MovieDiscount {
         // Ask the user for the side lengths
         System.err.print("How old are you? ");
         int age = input.nextInt();
-
+        
+        
         // Ask the user if they have a coupon
         System.err.print("Do you have a coupon? [true/false] ");
-        // TODO: Read in a true/false value
+        
 
         // Print the cost of a movie ticket
-        // TODO: Figure out the cost and print it
+        
     }
 }
