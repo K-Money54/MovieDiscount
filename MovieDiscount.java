@@ -22,7 +22,6 @@ public class MovieDiscount {
         	
         } 
         
-        
         // Ask the user if they have a coupon
         System.err.print("Do you have a coupon? [true/false] ");
         boolean hasCoupon = input.nextBoolean();
@@ -30,9 +29,8 @@ public class MovieDiscount {
         if (hasCoupon) {
         	cost = cost - 2;
         }
-        
-        
+              
         // Print the cost of a movie ticket
-        System.out.println("Your ticket costs $" + cost);
+        System.out.println("Your ticket costs $" + cost + ".");
     }
 }
